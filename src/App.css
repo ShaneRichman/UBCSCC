@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /*margin: 0em 30em;*/
 }
 
 .App-logo {
@@ -24,6 +25,32 @@
 
 .logo {
   height: 7em;
+}
+
+.top-bar {
+  margin-top: 3em;
+}
+
+.jumbotron {
+  background: #FFFFFF;
+}
+
+.navBar {
+  position: fixed;
+  top: 0px;
+  background: -webkit-linear-gradient(#0054a6, #002859);
+  border-radius: .3em;
+}
+.nav-pills {
+  display: -webkit-box;
+}
+
+.mainContent {
+  float: left;
+}
+
+.sponsors {
+  float: right;
 }
 
 @keyframes App-logo-spin {

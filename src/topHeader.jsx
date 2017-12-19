@@ -3,7 +3,6 @@ import { Navbar, FormGroup, FormControl, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
 import './App.css';
-import NavList from "./navList.jsx";
 
 
 class topHeader extends Component {
@@ -40,14 +39,13 @@ class topHeader extends Component {
         </div>
 
 
-        <div classname="jumbotron" >
+        <div className="jumbotron" >
           <Link to='/'>
             <img src='http://www.ubcscc.com/wordpress/wp-content/uploads/2014/09/cropped-IMG_2126-22.jpg' alt="Demo" />
           </Link>
         </div>
 
 
-        <NavList />
       </div>
     );
   }

@@ -17,9 +17,16 @@ class navList extends Component {
     )
     const racing = (
       <NavDropdown title="Racing" id="nav-dropdown-racing">
-        <MenuItem >Auto X</MenuItem>
-        <MenuItem >Track Days</MenuItem>
-        <MenuItem >TSD Rally</MenuItem>
+        <LinkContainer to="/racing/autoX">
+          <MenuItem >Auto X</MenuItem>
+        </LinkContainer>
+        <LinkContainer to="racing/trackDays">
+          <MenuItem >Track Days</MenuItem>
+        </LinkContainer>
+        <LinkContainer to="racing/TSDRally">
+          <MenuItem >TSD Rally</MenuItem>
+        </LinkContainer>
+
       </NavDropdown>
     )
     const clubEvents = (
@@ -44,8 +51,12 @@ class navList extends Component {
     )
     const rules = (
       <NavDropdown title="Rules" id="nav-dropdown-rules">
-        <MenuItem >UBCSCC Supplemental Regulations</MenuItem>
-        <MenuItem >Slush Series</MenuItem>
+        <LinkContainer to="/rules/SR">
+          <MenuItem >UBCSCC Supplemental Regulations</MenuItem>
+        </LinkContainer>
+        <LinkContainer to="/rules/slushSeries">
+          <MenuItem >Slush Series</MenuItem>
+        </LinkContainer>
       </NavDropdown>
     )
     const about = (
@@ -73,7 +84,7 @@ class navList extends Component {
     );
 
     return (
-      <div>
+      <div className="navBar">
         {navInstance}
       </div>
     );

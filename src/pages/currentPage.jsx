@@ -19,7 +19,7 @@ class currentPage extends Component {
   render() {
 
     return (
-      <div>
+      <div className="mainContent">
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/forum" component={Forum}/>

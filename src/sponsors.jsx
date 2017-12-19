@@ -4,14 +4,14 @@ import './App.css';
 class sponsors extends Component {
   render() {
     const listSponsors = (
-      <ListGroup>
-        <ListGroupItem href="#" active>Link 1</ListGroupItem>
+      <ListGroup >
+        <ListGroupItem href="https://www.facebook.com/" active>Facebook</ListGroupItem>
         <ListGroupItem href="#">Link 2</ListGroupItem>
         <ListGroupItem href="#">Link 3</ListGroupItem>
       </ListGroup>
     );
     return (
-      <div>
+      <div className="sponsors">
         {listSponsors}
       </div>
     );
