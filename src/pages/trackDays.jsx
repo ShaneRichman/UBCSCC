@@ -25,7 +25,6 @@ class trackDays extends Component {
             -Sunday September 17th
           </p>
           <p>
-
             -Track Days are NOT races<br/>
             -Each event is capped at 40 drivers to maximize seat time<br/>
             -Drivers are divided into rungroups by ability and track experience<br/>

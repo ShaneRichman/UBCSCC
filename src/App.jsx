@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom'
+import NavList from "./navList.jsx";
 import TopHeader from './topHeader.jsx';
 import CurrentPage from './pages/currentPage.jsx';
 import Sponsors from './sponsors.jsx';
-import NavList from "./navList.jsx";
 import './App.css';
 
 class App extends Component {
@@ -29,14 +29,11 @@ class App extends Component {
         <div className="App">
           <NavList />
           <TopHeader />
-          <div className="bottomPage">
-            <CurrentPage />
-            <Sponsors />
-          </div>
+          <CurrentPage />
+          <Sponsors />
         </div>
       </Router>
     );
   }
 }
-
 export default App;

@@ -200,7 +200,6 @@ class supplementalRegulations extends Component {
           <footer>
             <span>
               <span></span>
-              <a href="#"></a>
             </span>
           </footer>
         </article>

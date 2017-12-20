@@ -40,7 +40,7 @@ class home extends Component {
           <footer>
             <span>
               <span>Posted in </span>
-              <a href="#">Uncategorized</a>
+              <Link to="/">Uncategorized</Link>
             </span>
           </footer>
         </article>

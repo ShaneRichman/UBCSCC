@@ -1,12 +1,13 @@
-.App {
-  text-align: center;
-  /*margin: 0em 30em;*/
+#root {
+  background-color: #eeeeee;
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App {
+  background-color: #FFFFFF;
+  margin: 0em 25%;
 }
+
 
 .App-header {
   background-color: #003e7f;
@@ -23,20 +24,36 @@
   font-size: large;
 }
 
-.logo {
-  height: 7em;
+.top-section {
+
 }
 
-.top-bar {
-  margin-top: 3em;
+.logo {
+  height: 10em;
+  display: inline-block;
+}
+
+#company-name {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.logo-bar {
+
 }
 
 .jumbotron {
+  padding: 0px;
   background: #FFFFFF;
 }
 
+.jumbotron a img {
+  width: 100%;
+}
+
 .navBar {
-  position: fixed;
+  z-index: 10;
+  position: sticky;
   top: 0px;
   background: -webkit-linear-gradient(#0054a6, #002859);
   border-radius: .3em;
@@ -46,11 +63,14 @@
 }
 
 .mainContent {
-  float: left;
+  padding: 1em;
+  width: 75%;
+  display: inline-block;
 }
 
 .sponsors {
-  float: right;
+  width: 25%;
+  display: inline-block;
 }
 
 @keyframes App-logo-spin {
