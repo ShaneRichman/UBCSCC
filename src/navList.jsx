@@ -20,10 +20,10 @@ class navList extends Component {
         <LinkContainer to="/racing/autoX">
           <MenuItem >Auto X</MenuItem>
         </LinkContainer>
-        <LinkContainer to="racing/trackDays">
+        <LinkContainer to="/racing/trackDays">
           <MenuItem >Track Days</MenuItem>
         </LinkContainer>
-        <LinkContainer to="racing/TSDRally">
+        <LinkContainer to="/racing/TSDRally">
           <MenuItem >TSD Rally</MenuItem>
         </LinkContainer>
 
@@ -31,22 +31,22 @@ class navList extends Component {
     )
     const clubEvents = (
       <LinkContainer to="/clubEvents">
-        <NavItem href="/clubEvents">Club Events</NavItem>
+        <NavItem>Club Events</NavItem>
       </LinkContainer>
     )
     const pictures = (
       <LinkContainer to="/pictures">
-        <NavItem href="/pictures">Pictures and Videos</NavItem>
+        <NavItem>Pictures and Videos</NavItem>
       </LinkContainer>
     )
     const register = (
       <LinkContainer to="/register">
-        <NavItem href="/register">Register</NavItem>
+        <NavItem>Register</NavItem>
       </LinkContainer>
     )
     const membership = (
        <LinkContainer to="/membership">
-        <NavItem href="/membership">Membership</NavItem>
+        <NavItem>Membership</NavItem>
       </LinkContainer>
     )
     const rules = (
@@ -66,7 +66,7 @@ class navList extends Component {
     )
     const contactUs = (
       <LinkContainer to="/contactUs">
-        <NavItem href="/contactUs">Contact Us</NavItem>
+        <NavItem>Contact Us</NavItem>
       </LinkContainer>
     )
     const navInstance = (
